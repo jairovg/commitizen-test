@@ -1,6 +1,6 @@
 {
   "name": "commitizen-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Commitizen setup test",
   "scripts": {
     "release": "standard-version --no-verify"
