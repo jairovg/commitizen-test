@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Commitizen setup test",
   "scripts": {
-    "release": "standard-version --no-verify"
+    "release": "HUSKY_SKIP_HOOKS=1 standard-version --no-verify"
   },
   "keywords": [
     "commitizen",
