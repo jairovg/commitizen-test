@@ -1,0 +1,11 @@
+{
+  "name": "commitizen-test",
+  "version": "0.0.0",
+  "description": "Commitizen setup test",
+  "keywords": [
+    "commitizen",
+    "setup"
+  ],
+  "author": "jairovg",
+  "license": "MIT"
+}
