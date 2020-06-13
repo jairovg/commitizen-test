@@ -1,6 +1,6 @@
 {
   "name": "commitizen-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Commitizen setup test",
   "scripts": {
     "release": "HUSKY_SKIP_HOOKS=1 standard-version --no-verify"
