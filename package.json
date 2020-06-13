@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Commitizen setup test",
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version --no-verify"
   },
   "keywords": [
     "commitizen",
