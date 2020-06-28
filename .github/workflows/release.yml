@@ -12,12 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v2-beta
         with:
           node-version: '12'
       - name: Clean and install dependencies
         run: npm ci
       - name: Create new release
+        run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run release
