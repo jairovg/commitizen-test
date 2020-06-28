@@ -1,6 +1,7 @@
 {
   "name": "commitizen-test",
   "version": "0.0.2",
+  "private": true,
   "description": "Commitizen setup test",
   "scripts": {
     "release": "HUSKY_SKIP_HOOKS=1 standard-version --no-verify"
@@ -11,6 +12,11 @@
   ],
   "author": "jairovg",
   "license": "MIT",
+  "homepage": "https://github.com/jairovg/commitizen-test#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jairovg/commitizen-test.git"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
