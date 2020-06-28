@@ -4,7 +4,7 @@
   "private": true,
   "description": "Commitizen setup test",
   "scripts": {
-    "release": "HUSKY_SKIP_HOOKS=1 standard-version --no-verify"
+    "release": "HUSKY_SKIP_HOOKS=1 semantic-release --no-verify",
   },
   "keywords": [
     "commitizen",
